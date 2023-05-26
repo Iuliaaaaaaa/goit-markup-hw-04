@@ -139,6 +139,7 @@ img { display: block;
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+      max-width: 1440px; 
       padding: 188px 0 ;
       align-items: center;
     }
@@ -191,6 +192,7 @@ img { display: block;
     .order:focus {
       background-color: #404BBF;
     }
+    /* Section 2 */
 
     .work {
       padding: 120px 0;
@@ -204,6 +206,47 @@ img { display: block;
       display: flex;
       gap: 24px;
     }
+
+    .antena {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 112px;
+      background-color: #f4f4fd; 
+      border-radius: 4px;
+      margin-bottom: 8px;
+       }
+
+      .clock {
+        display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 112px;
+      background-color: #f4f4fd; 
+      border-radius: 4px;
+      margin-bottom: 8px;
+      }
+
+      .diagram {
+        display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 112px;
+      background-color: #f4f4fd; 
+      border-radius: 4px;
+      margin-bottom: 8px;
+      }
+
+      .astronaut {
+        display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 112px;
+      background-color: #f4f4fd; 
+      border-radius: 4px;
+      margin-bottom: 8px;
+      }
+
     .strategy {
       font-weight: 500;
       font-size: 20px;
@@ -262,6 +305,7 @@ img { display: block;
       background-color: #FFFFFF;
       border-radius: 0px 0px 4px 4px;
       width: calc((100% - 72px) / 4);
+      box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
     }
 
     .mark {
@@ -282,7 +326,31 @@ img { display: block;
       margin-bottom: 8px;
       text-align: center;
           }
+      .networks {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+      }
 
+      .insta {
+        width: 40px; 
+        height: 40px;
+      }
+
+      .insta-link {
+        width: 100%;
+        height: 100%;
+        background-color: var(#4d5ae5);
+        border-radius: зі значенням 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .insta-link:hover, :focus {
+        border-color:#404bbf;  ;
+      }
+      
     .designer {
       font-weight: 400;
       display: flex;
