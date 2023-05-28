@@ -321,11 +321,12 @@ img { display: block;
         justify-content: center;
       }
 
-      .insta-link:hover,
+      .insta-link:hover {
+        background-color: #404bbf;
+      }
       .insta-link:focus {
         background-color: #404bbf;
       }
-      
       .insta-link-icon {
       fill: var(--button);
       }
@@ -377,7 +378,11 @@ img { display: block;
       color: var(--link-color);
     }
     
-    .customers-link:hover,
+    .customers-link:hover {
+      border-color: #404bbf;
+      color: #404bbf; 
+    }
+
     .customers-link:focus {
       border-color: #404bbf;
       color: #404bbf; 
