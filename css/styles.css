@@ -460,11 +460,11 @@ img { display: block;
       justify-content: center;
       }
 
-    .foot-link:hover {
+    .foot-icon:hover {
       background-color: #31d0aa;
     }
 
-    .foot-link:focus {
+    .foot-icon:focus {
       background-color: #31d0aa;
     }
 
