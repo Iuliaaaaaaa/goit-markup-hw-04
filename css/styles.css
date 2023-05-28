@@ -317,7 +317,10 @@ img { display: block;
         justify-content: center;
       }
 
-      .insta-link:hover,
+      .insta-link:hover {
+        background-color: #404bbf;
+      }
+      
       .insta-link:focus {
         background-color: #404bbf;
       }
@@ -333,6 +336,7 @@ img { display: block;
       line-height: 1.5 ;
       letter-spacing: 0.02em;
       text-align: center;
+      margin-bottom: 8px;
     }
 
     .footer {
