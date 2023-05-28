@@ -372,7 +372,7 @@ img { display: block;
       height: 100%;
       border: 1px solid #8e8f99;
       border-radius: 4px;
-      display: block;
+      display: flex;
       align-items: center;
       justify-content: center;
       color: var(--link-color);
