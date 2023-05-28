@@ -460,7 +460,10 @@ img { display: block;
       justify-content: center;
       }
 
-    .foot-link:hover,
+    .foot-link:hover {
+      background-color: #31d0aa;
+    }
+    
     .foot-link:focus {
       background-color: #31d0aa;
     }
