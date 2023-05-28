@@ -11,6 +11,10 @@ body {
 --address-color: #434455;
 --solutions: #2e2f42;
 --button:  #F4F4FD;
+--link-color: #8e8f99;
+--footer-text: #FFFFFF;
+
+
 }
 
 h1,
@@ -317,10 +321,7 @@ img { display: block;
         justify-content: center;
       }
 
-      .insta-link:hover {
-        background-color: #404bbf;
-      }
-      
+      .insta-link:hover,
       .insta-link:focus {
         background-color: #404bbf;
       }
@@ -339,17 +340,84 @@ img { display: block;
       margin-bottom: 8px;
     }
 
+    .customers {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+
+    .customers-title {
+      font-size: 36px;
+      line-height: 1.11;
+      color: var(--solutions);
+      margin-bottom: 72px;
+      text-align: center;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+    }
+    
+    .customers-list {
+      display: flex;
+      gap: 24px; 
+      width: 220;
+    }
+
+    .customers-item {
+    width: calc((100% - 120px) / 6);
+     height: 88px;
+    }
+
+    .customers-link {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #8e8f99;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--link-color);
+    }
+    
+    .customers-link :hover,
+    .customers-link :focus {
+      border-color: #404bbf;
+      color: #404bbf; 
+    }
+
+    .customers-icon {
+      fill: currentColor;
+    }
+
     .footer {
       background-color: var(--solutions);
       padding: 100px 0;
     }
-    .footer-containe {
+    .footer-container {
+     display: flex;
+     align-items: baseline;
+    
+    }
 
+    .footer-logo-bx{
+      gap: 120px;
+      margin-right: 120px;
     }
     .footer-logo {
-      display: inline-block;
+      /* display: inline-block;
       margin: 0 0 16px 0;
-      color: #4d5ae5;
+      color: #4d5ae5; */
+
+      font-family: "Raleway", sans-serif;
+      font-weight: 800;
+      font-size: 18px;
+      font-style: normal;
+      line-height: 1.17;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--text-color);
+      margin-right: 76px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
     }
 
       .footer-text {
@@ -358,7 +426,25 @@ img { display: block;
         letter-spacing: 0.02em;
         color: #F4F4FD;
       }
+      .footer-text-bx {
+        font-weight: 500 ;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--footer-text);
+        margin-bottom: 16px; 
+      }
+  
+      .footer-list {
+        display: flex;
+        gap: 16px;
+      }
 
+      .foot-item {
+        width: 40px; 
+        height: 40px;
+        
+      }
     .studio {
       display: inline-block;
       margin: 0;
