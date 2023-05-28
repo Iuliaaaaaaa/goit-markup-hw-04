@@ -372,7 +372,7 @@ img { display: block;
       height: 100%;
       border: 1px solid #8e8f99;
       border-radius: 4px;
-      display: flex;
+      display: block;
       align-items: center;
       justify-content: center;
       color: var(--link-color);
@@ -383,7 +383,6 @@ img { display: block;
       border-color: #404bbf;
       color: #404bbf; 
     }
-
 
     .customers-icon {
       fill: currentColor;
