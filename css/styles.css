@@ -378,15 +378,12 @@ img { display: block;
       color: var(--link-color);
     }
     
-    .customers-link:hover {
+    .customers-link:hover,
+    .customers-link:focus {
       border-color: #404bbf;
       color: #404bbf; 
     }
 
-    /* .customers-link:focus {
-      border-color: var(--link);
-      color: var(--link); 
-    } */
 
     .customers-icon {
       fill: currentColor;
