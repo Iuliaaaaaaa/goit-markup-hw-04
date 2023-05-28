@@ -399,7 +399,6 @@ img { display: block;
     .footer-container {
      display: flex;
      align-items: baseline;
-    
     }
 
     .footer-logo-bx{
@@ -460,11 +459,11 @@ img { display: block;
       justify-content: center;
       }
 
-    .foot-icon:hover {
+    .foot-link:hover {
       background-color: #31d0aa;
     }
 
-    .foot-icon:focus {
+    .footer-list .foot-link:focus {
       background-color: #31d0aa;
     }
 
