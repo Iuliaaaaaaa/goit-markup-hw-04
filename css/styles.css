@@ -379,17 +379,14 @@ img { display: block;
     }
     
     .customers-link:hover {
-      /* border-color: #404bbf;
-      color: #404bbf;  */
-
-      border-color: var(--link);
-      color: var(--link); 
+      border-color: #404bbf;
+      color: #404bbf; 
     }
 
-    .customers-link:focus {
+    /* .customers-link:focus {
       border-color: var(--link);
       color: var(--link); 
-    }
+    } */
 
     .customers-icon {
       fill: currentColor;
