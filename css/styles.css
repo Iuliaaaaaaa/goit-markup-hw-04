@@ -13,7 +13,7 @@ body {
 --button:  #F4F4FD;
 --link-color: #8e8f99;
 --footer-text: #FFFFFF;
-
+--link: #404bbf; 
 
 }
 
@@ -379,13 +379,16 @@ img { display: block;
     }
     
     .customers-link:hover {
-      border-color: #404bbf;
-      color: #404bbf; 
+      /* border-color: #404bbf;
+      color: #404bbf;  */
+
+      border-color: var(--link);
+      color: var(--link); 
     }
 
     .customers-link:focus {
-      border-color: #404bbf;
-      color: #404bbf; 
+      border-color: var(--link);
+      color: var(--link); 
     }
 
     .customers-icon {
@@ -463,7 +466,7 @@ img { display: block;
       background-color: #31d0aa;
     }
 
-    .footer-list .foot-link:focus {
+   .foot-link:focus {
       background-color: #31d0aa;
     }
 
